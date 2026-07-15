@@ -25,7 +25,7 @@ Before implementation, identify the two or three defaults this project is most l
 
 A familiar pattern may remain when it genuinely improves comprehension or conversion, but it must be deliberate, branded, accessible, and integrated into the whole composition.
 
-## Non-negotiable visual quality
+## Visual quality requirements
 
 - Important content is visible and usable by default. JavaScript failure, hydration issues, background tabs, screenshots, or reduced-motion mode must not leave content hidden.
 - Text and controls have strong contrast, responsive gutters, and adequate breathing room.
