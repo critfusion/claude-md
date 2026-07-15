@@ -1,24 +1,18 @@
-# claude-md
+# UI Framework
 
-A portable `CLAUDE.md` design and implementation standard for producing distinctive, accessible, responsive, and verifiably working interfaces.
+A portable UI design and implementation standard for producing distinctive, accessible, responsive, and verifiably working interfaces with Claude or another coding agent.
+
+The canonical standard is [`ui-framework.md`](./ui-framework.md). It is intentionally **not** named `CLAUDE.md`, so it can be added to a workplace repository without replacing that project's existing agent instructions.
 
 ## Use it in a project
 
-Check whether the project already has a `CLAUDE.md` before downloading this standard.
-
-If it does **not**, copy [`CLAUDE.md`](./CLAUDE.md) into the repository root:
+Download the framework into the repository:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/critfusion/claude-md/main/CLAUDE.md -o CLAUDE.md
+curl -fsSL https://raw.githubusercontent.com/critfusion/claude-md/main/ui-framework.md -o ui-framework.md
 ```
 
-If the project already has a `CLAUDE.md`, preserve its project-specific instructions and download this standard separately:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/critfusion/claude-md/main/CLAUDE.md -o CLAUDE.design-standard.md
-```
-
-Then reference `CLAUDE.design-standard.md` from the existing project instructions or merge the relevant sections deliberately.
+Then instruct the coding agent to read `ui-framework.md` before UI design, implementation, or review work. If the repository already has a `CLAUDE.md`, `AGENTS.md`, or equivalent instruction file, reference this framework from it or merge only the relevant sections deliberately.
 
 ## What it covers
 
